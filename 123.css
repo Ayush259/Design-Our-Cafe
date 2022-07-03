@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+.xyz{
+    width: auto;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(0,0,0,0.75)),url(coffee.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.abc{
+    width: 34%;
+    margin-left: 730px;
+    padding: 43px 0;
+    color: white;
+    display: flex;
+    font-size: 23px;
+    align-items: center;
+    justify-content: space-between;
+}
+.abc ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    left: 60%;
+    font-size: small;
+    position: relative;
+}
+.abc ul li a{
+    text-decoration: none;
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+
+}
+.abc ul li ::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #f4f7f6;
+    position: absolute;
+     left: 0%;
+    bottom: -5px;
+    transition: 0.5s; 
+}
+.abc ul li:hover ::after{
+    width: 100%;
+}
+.coffee{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%); 
+    text-align: left;
+    color: rgb(243, 243, 243);
+}
+.coffee h1{
+    
+    font-size: 70px;
+    margin-top: 80px;
+}
+.coffee h3{
+    margin: 10px auto;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 25px;
+    text-align: left;
+}
+.fa{
+    font-size: 30px;
+    color: rgb(173, 173, 173);
+    padding: 15px;
+}
+#fa{
+    /* float: right; */
+   
+    margin-top: 250px;
+    margin-left: 1077px;    
+}
+img{
+    padding-left: 300px;
+    margin-top: -10px;
+    width: 140px;
+}
